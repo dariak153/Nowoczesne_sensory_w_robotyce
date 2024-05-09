@@ -53,11 +53,9 @@ class Ouster(Node):
             vert_angle = math.atan2(point.z, distance) * (180 / math.pi)  # Convert to degrees
             horiz_angle = math.atan2(point.y, point.x) * (180 / math.pi)  # Convert to degrees
 
-            # Skip points outside of vertical FOV
             if vert_angle < MIN_V_ANGLE or vert_angle > MAX_V_ANGLE:
                 continue
 
-            # Convert angles to pixel coordinates
             vert_pixel = int((vert_angle - MIN_V_ANGLE) / V_ANGLE_RANGE * (SCANNER_ROWS - 1))
             horiz_pixel = int((horiz_angle + 180) / 360 * (SCANNER_COLS - 1))
 
@@ -74,7 +72,6 @@ class Ouster(Node):
         cv2.imshow("Intensity Image", intensity_img)
         cv2.waitKey(1)
 
-        # Save images to file
         cv2.imwrite("intensity_image.png", intensity_img)
 
 
