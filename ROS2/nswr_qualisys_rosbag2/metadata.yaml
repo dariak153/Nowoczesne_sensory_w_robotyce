@@ -1,0 +1,61 @@
+rosbag2_bagfile_information:
+  compression_format: ''
+  compression_mode: ''
+  custom_data: {}
+  duration:
+    nanoseconds: 39184411225
+  files:
+  - duration:
+      nanoseconds: 39184411225
+    message_count: 34682
+    path: nswr_qualisys.db3
+    starting_time:
+      nanoseconds_since_epoch: 1570699221815513598
+  message_count: 34682
+  relative_file_paths:
+  - nswr_qualisys.db3
+  starting_time:
+    nanoseconds_since_epoch: 1570699221815513598
+  storage_identifier: sqlite3
+  topics_with_message_count:
+  - message_count: 4
+    topic_metadata:
+      name: /tf_static
+      offered_qos_profiles: "- history: 3\n  depth: 0\n  reliability: 1\n  durability:
+        1\n  deadline:\n    sec: 2147483647\n    nsec: 4294967295\n  lifespan:\n    sec:
+        2147483647\n    nsec: 4294967295\n  liveliness: 1\n  liveliness_lease_duration:\n
+        \   sec: 2147483647\n    nsec: 4294967295\n  avoid_ros_namespace_conventions:
+        false"
+      serialization_format: cdr
+      type: tf2_msgs/msg/TFMessage
+  - message_count: 7350
+    topic_metadata:
+      name: /qualisys/helmet_subject
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: qualisys/msg/Subject
+  - message_count: 7350
+    topic_metadata:
+      name: /qualisys/helmet_pose
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: geometry_msgs/msg/PoseStamped
+  - message_count: 3918
+    topic_metadata:
+      name: /xsens/imu/mag
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/MagneticField
+  - message_count: 15671
+    topic_metadata:
+      name: /xsens/imu/data
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/Imu
+  - message_count: 389
+    topic_metadata:
+      name: /velodyne/velodyne_points
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/PointCloud2
+  version: 6

@@ -1,0 +1,21 @@
+[0.807s] Invoking command in '/home/daria/catkin_nswr/src/nswr_ouster': PYTHONPATH=/home/daria/catkin_nswr/build/nswr_ouster/prefix_override:/home/daria/catkin_nswr/install/nswr_ouster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nswr_ouster build --build-base /home/daria/catkin_nswr/build/nswr_ouster/build install --record /home/daria/catkin_nswr/build/nswr_ouster/install.log --single-version-externally-managed install_data
+[1.115s] running egg_info
+[1.116s] writing ../../build/nswr_ouster/nswr_ouster.egg-info/PKG-INFO
+[1.116s] writing dependency_links to ../../build/nswr_ouster/nswr_ouster.egg-info/dependency_links.txt
+[1.116s] writing entry points to ../../build/nswr_ouster/nswr_ouster.egg-info/entry_points.txt
+[1.116s] writing requirements to ../../build/nswr_ouster/nswr_ouster.egg-info/requires.txt
+[1.116s] writing top-level names to ../../build/nswr_ouster/nswr_ouster.egg-info/top_level.txt
+[1.118s] reading manifest file '../../build/nswr_ouster/nswr_ouster.egg-info/SOURCES.txt'
+[1.120s] writing manifest file '../../build/nswr_ouster/nswr_ouster.egg-info/SOURCES.txt'
+[1.120s] running build
+[1.120s] running build_py
+[1.120s] running install
+[1.120s] running install_lib
+[1.122s] running install_data
+[1.122s] running install_egg_info
+[1.123s] removing '/home/daria/catkin_nswr/install/nswr_ouster/lib/python3.10/site-packages/nswr_ouster-0.0.0-py3.10.egg-info' (and everything under it)
+[1.124s] Copying ../../build/nswr_ouster/nswr_ouster.egg-info to /home/daria/catkin_nswr/install/nswr_ouster/lib/python3.10/site-packages/nswr_ouster-0.0.0-py3.10.egg-info
+[1.124s] running install_scripts
+[1.146s] Installing nswr_ouster script to /home/daria/catkin_nswr/install/nswr_ouster/lib/nswr_ouster
+[1.146s] writing list of installed files to '/home/daria/catkin_nswr/build/nswr_ouster/install.log'
+[1.170s] Invoked command in '/home/daria/catkin_nswr/src/nswr_ouster' returned '0': PYTHONPATH=/home/daria/catkin_nswr/build/nswr_ouster/prefix_override:/home/daria/catkin_nswr/install/nswr_ouster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/nswr_ouster build --build-base /home/daria/catkin_nswr/build/nswr_ouster/build install --record /home/daria/catkin_nswr/build/nswr_ouster/install.log --single-version-externally-managed install_data

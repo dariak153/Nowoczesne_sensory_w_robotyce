@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/nswr_ouster/nswr_ouster.egg-info
+writing ../../build/nswr_ouster/nswr_ouster.egg-info/PKG-INFO
+writing dependency_links to ../../build/nswr_ouster/nswr_ouster.egg-info/dependency_links.txt
+writing entry points to ../../build/nswr_ouster/nswr_ouster.egg-info/entry_points.txt
+writing requirements to ../../build/nswr_ouster/nswr_ouster.egg-info/requires.txt
+writing top-level names to ../../build/nswr_ouster/nswr_ouster.egg-info/top_level.txt
+writing manifest file '../../build/nswr_ouster/nswr_ouster.egg-info/SOURCES.txt'
+reading manifest file '../../build/nswr_ouster/nswr_ouster.egg-info/SOURCES.txt'
+writing manifest file '../../build/nswr_ouster/nswr_ouster.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daria/catkin_nswr/build/nswr_ouster/build
+creating /home/daria/catkin_nswr/build/nswr_ouster/build/lib
+creating /home/daria/catkin_nswr/build/nswr_ouster/build/lib/nswr_ouster
+copying nswr_ouster/nswr_ouster.py -> /home/daria/catkin_nswr/build/nswr_ouster/build/lib/nswr_ouster
+copying nswr_ouster/__init__.py -> /home/daria/catkin_nswr/build/nswr_ouster/build/lib/nswr_ouster
+running install
+running install_lib
+creating /home/daria/catkin_nswr/install/nswr_ouster/lib/python3.10/site-packages/nswr_ouster
+copying /home/daria/catkin_nswr/build/nswr_ouster/build/lib/nswr_ouster/nswr_ouster.py -> /home/daria/catkin_nswr/install/nswr_ouster/lib/python3.10/site-packages/nswr_ouster
+copying /home/daria/catkin_nswr/build/nswr_ouster/build/lib/nswr_ouster/__init__.py -> /home/daria/catkin_nswr/install/nswr_ouster/lib/python3.10/site-packages/nswr_ouster
+byte-compiling /home/daria/catkin_nswr/install/nswr_ouster/lib/python3.10/site-packages/nswr_ouster/nswr_ouster.py to nswr_ouster.cpython-310.pyc
+byte-compiling /home/daria/catkin_nswr/install/nswr_ouster/lib/python3.10/site-packages/nswr_ouster/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/daria/catkin_nswr/install/nswr_ouster/share/ament_index
+creating /home/daria/catkin_nswr/install/nswr_ouster/share/ament_index/resource_index
+creating /home/daria/catkin_nswr/install/nswr_ouster/share/ament_index/resource_index/packages
+copying resource/nswr_ouster -> /home/daria/catkin_nswr/install/nswr_ouster/share/ament_index/resource_index/packages
+copying package.xml -> /home/daria/catkin_nswr/install/nswr_ouster/share/nswr_ouster
+copying launch/nswr_ouster_launch.py -> /home/daria/catkin_nswr/install/nswr_ouster/share/nswr_ouster
+copying rviz_cfg/nswr_ouster.rviz -> /home/daria/catkin_nswr/install/nswr_ouster/share/nswr_ouster
+running install_egg_info
+Copying ../../build/nswr_ouster/nswr_ouster.egg-info to /home/daria/catkin_nswr/install/nswr_ouster/lib/python3.10/site-packages/nswr_ouster-0.0.0-py3.10.egg-info
+running install_scripts
+Installing nswr_ouster script to /home/daria/catkin_nswr/install/nswr_ouster/lib/nswr_ouster
+writing list of installed files to '/home/daria/catkin_nswr/build/nswr_ouster/install.log'

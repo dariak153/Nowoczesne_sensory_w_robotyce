@@ -1,0 +1,63 @@
+rosbag2_bagfile_information:
+  compression_format: ''
+  compression_mode: ''
+  custom_data: {}
+  duration:
+    nanoseconds: 132734169595
+  files:
+  - duration:
+      nanoseconds: 132734169595
+    message_count: 6636
+    path: nswr_dgps_rosbag2.db3
+    starting_time:
+      nanoseconds_since_epoch: 1557831924368010119
+  message_count: 6636
+  relative_file_paths:
+  - nswr_dgps_rosbag2.db3
+  starting_time:
+    nanoseconds_since_epoch: 1557831924368010119
+  storage_identifier: sqlite3
+  topics_with_message_count:
+  - message_count: 1328
+    topic_metadata:
+      name: /dgps_magellan/fix
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/NavSatFix
+  - message_count: 1328
+    topic_metadata:
+      name: /dgps_magellan/gps_fix
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: gps_common/msg/GPSFix
+  - message_count: 1328
+    topic_metadata:
+      name: /dgps_magellan/time_reference
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/TimeReference
+  - message_count: 663
+    topic_metadata:
+      name: /gps_tapas/vel
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: geometry_msgs/msg/TwistStamped
+  - message_count: 663
+    topic_metadata:
+      name: /gps_tapas/fix
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/NavSatFix
+  - message_count: 663
+    topic_metadata:
+      name: /gps_tapas/gps_fix
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: gps_common/msg/GPSFix
+  - message_count: 663
+    topic_metadata:
+      name: /gps_tapas/time_reference
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: sensor_msgs/msg/TimeReference
+  version: 6

@@ -1,0 +1,3 @@
+[console_scripts]
+nswr_ouster = nswr_ouster.nswr_ouster:main
+

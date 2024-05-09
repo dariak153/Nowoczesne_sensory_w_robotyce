@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/nswr_ouster/nswr_ouster.egg-info/PKG-INFO
+writing dependency_links to ../../build/nswr_ouster/nswr_ouster.egg-info/dependency_links.txt
+writing entry points to ../../build/nswr_ouster/nswr_ouster.egg-info/entry_points.txt
+writing requirements to ../../build/nswr_ouster/nswr_ouster.egg-info/requires.txt
+writing top-level names to ../../build/nswr_ouster/nswr_ouster.egg-info/top_level.txt
+reading manifest file '../../build/nswr_ouster/nswr_ouster.egg-info/SOURCES.txt'
+writing manifest file '../../build/nswr_ouster/nswr_ouster.egg-info/SOURCES.txt'
+running build
+running build_py
+copying nswr_ouster/nswr_ouster.py -> /home/daria/catkin_nswr/build/nswr_ouster/build/lib/nswr_ouster
+running install
+running install_lib
+copying /home/daria/catkin_nswr/build/nswr_ouster/build/lib/nswr_ouster/nswr_ouster.py -> /home/daria/catkin_nswr/install/nswr_ouster/lib/python3.10/site-packages/nswr_ouster
+byte-compiling /home/daria/catkin_nswr/install/nswr_ouster/lib/python3.10/site-packages/nswr_ouster/nswr_ouster.py to nswr_ouster.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/daria/catkin_nswr/install/nswr_ouster/lib/python3.10/site-packages/nswr_ouster-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/nswr_ouster/nswr_ouster.egg-info to /home/daria/catkin_nswr/install/nswr_ouster/lib/python3.10/site-packages/nswr_ouster-0.0.0-py3.10.egg-info
+running install_scripts
+Installing nswr_ouster script to /home/daria/catkin_nswr/install/nswr_ouster/lib/nswr_ouster
+writing list of installed files to '/home/daria/catkin_nswr/build/nswr_ouster/install.log'
